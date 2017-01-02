@@ -88,7 +88,6 @@ def medianOfTwo(l1, l2):
 				return medianOfTwo(l1[mid1:], l2[:mid2+1])
 			else:
 				return medianOfTwo(l1[:mid1+1], l2[mid2-1:])
+	# Wrapper for cleaner code
 	else:
 		return medianOfTwo(l2, l1)
-
-print medianOfTwo([1,2,3], [1, 2])
