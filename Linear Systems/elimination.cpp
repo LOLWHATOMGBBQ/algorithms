@@ -5,7 +5,8 @@
 
 using namespace std;
 
-
+// Uses an elimination method to solve the system of equations
+// Time complexity of O(N^3), where N is the size of the matrix
 void elim (vector<vector<float> > matrix, float *values, int length) {
     // Performs row operations on the matrix and reduces it
     // to the form:
