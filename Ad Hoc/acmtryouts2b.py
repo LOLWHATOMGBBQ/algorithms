@@ -1,4 +1,3 @@
-# your code goes here
 # Attack of the Blooks http://wcipeg.com/problem/acmtryouts2b
 # Use of Dynamic Programming, and Binary Search
 #
