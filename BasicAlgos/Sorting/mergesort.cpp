@@ -14,7 +14,8 @@
  * that the implementation here requires sufficient memory to be available. When
  * O(n) auxiliary memory is not available, std::stable_sort() falls back to a 
  * time complexity of O(n log^2 n) whereas the implementation here will simply 
- * fail.
+ * fail. Blocksort is a sorting algorithm that uses O(1) auxiliary memory, so 
+ * see that if interested
  * 
  * Proof:
  * The proof for mergesort is very similar to the proof for quicksort. A slight 
@@ -54,14 +55,6 @@ void mergesort(It lo, It hi, Compare comp) {
   }
 }
 
-
-template<class It, class Compare>
-void mergesort(It lo, It hi, Compare comp, T memory[]) {
-  if (hi - lo < 2) {
-    return;
-  }
-
-}
 
 template<class It>
 void mergesort(It lo, It hi) {
