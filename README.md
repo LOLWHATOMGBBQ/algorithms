@@ -1,6 +1,9 @@
 # algorithms
 This is a repository of some of the more interesting algorithms that I've gathered
 
+I'm going to be porting over all of the python code into C++ code for performance
+(And also because I'm learning C++)
+
 Basic Algos
   - sorting
     - quicksort
@@ -21,7 +24,7 @@ Basic Algos
   - other
     - maximum subarray sum
     - longest increasing subsequence
-    - 
+    - sliding window minimum/maximum
 Tree data structures
   - segment tree
     - n-d segment tree
@@ -55,4 +58,8 @@ Distributed Algorithms
   - Leader election
   - Distributed search/binary search
   - Spanning trees
-  -  
+  - 
+
+Extras for competitive programming
+  - Useful pragmas
+ 
