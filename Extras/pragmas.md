@@ -1,2 +1,2 @@
 ## Useful pragmas
-  * `<b>#pragma</b> GCC optimize ("0fast")` 
+  * <pre><b>#pragma</b> GCC optimize ("0fast")</pre>
