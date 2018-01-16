@@ -11,6 +11,7 @@
  * either side. We then apply the function on the two partitions on the left and
  * the right of the pivot until we end with an array of size 1 or 0 (sorted array)
  *
+ * PROOF:
  * We can prove that this algorithm works through induction (Base cases are the 
  * arrays of size 0 and 1) and the inductive step is something along the lines of 
  * Assume that quicksort works for all arrays of size 0 - N. Then we pick a pivot

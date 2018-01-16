@@ -47,4 +47,9 @@ Graph Theory
 			- krustals
 			- An interesting problem is the cartesian product of 2 trees and trying to take the sum of the weights of the min/max spanning tree of the product
 		-
-
+Distributed Algorithms
+	- Merge sort
+	- Leader election
+	- Distributed search/binary search
+	- Spanning trees
+	-  
