@@ -28,8 +28,10 @@ Basic Algos
 Tree data structures
   - segment tree
     - n-d segment tree
+    - persistent segment tree
   - fenwick tree
     - n-d fenwick tree
+  - link-cut tree
   - red-black tree
   - avl tree
   - wavelet trees
@@ -53,13 +55,15 @@ Graph Theory
       - krustals
       - An interesting problem is the cartesian product of 2 trees and trying to take the sum of the weights of the min/max spanning tree of the product
     -
+
 Distributed Algorithms
   - Merge sort
   - Leader election
   - Distributed search/binary search
   - Spanning trees
-  - 
+  - Square root decomposition
 
 Extras for competitive programming
   - Useful pragmas
- 
+  - Square root decomposition
+  -  
