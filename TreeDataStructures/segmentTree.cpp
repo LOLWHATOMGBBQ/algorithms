@@ -10,8 +10,8 @@ class SegmentTree {
 	SegmentTree* left; // Pointer to the left child
 	SegmentTree* right; // Pointer to right child
 		
-	T value; // Current value of the segment tree
-	T delta; // Value for lazy prop
+	T value = T(); // Current value of the segment tree
+	T delta = T(); // Value for lazy prop
 	
 	int left_idx; // Represents the interval [left_idx, right_idx]
 	int right_idx; // inclusive interval
@@ -24,16 +24,15 @@ class SegmentTree {
 	
 public:
 	// This is the default constructor using addition as the evaluation
-	SegmentTree(int left_id, int right_id, T values[]) :
-		left{left_id >= right_id ? nullptr : new SegmentTree(left_id, (right_id + left_id)/2, values)},
-			
-		right{left_id >= right_id ? nullptr : new SegmentTree((right_id + left_id)/2 + 1, right_id, values)},
-			
-		left_idx{left_id},
-		right_idx{right_id} {
+	SegmentTree(int left_idx, int right_idx, T values[]) :
+		left{left_idx >= right_idx ? nullptr : new SegmentTree(left_idx, (right_idx + left_idx)/2, values)},
+		right{left_idx >= right_idx ? nullptr : new SegmentTree((right_idx + left_idx)/2 + 1, right_idx, values)},
 		
-		delta = 0;
-		value = 0;
+		left_idx{left_idx},
+		right_idx{right_idx} {
+		
+		// delta = 0;
+		// value = 0;
 		// Update the tree
 		if (left_idx < right_idx) {
 			// printf("[%d, %d] made [%d, %d] = %d and [%d %d] = %d\n", left_idx, right_idx, left_idx, mid, getVal(left_idx, mid), mid+1, right_idx, getVal(mid+1, right_idx));
