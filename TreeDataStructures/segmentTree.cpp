@@ -31,8 +31,6 @@ public:
 		left_idx{left_idx},
 		right_idx{right_idx} {
 		
-		// delta = 0;
-		// value = 0;
 		// Update the tree
 		if (left_idx < right_idx) {
 			// printf("[%d, %d] made [%d, %d] = %d and [%d %d] = %d\n", left_idx, right_idx, left_idx, mid, getVal(left_idx, mid), mid+1, right_idx, getVal(mid+1, right_idx));
