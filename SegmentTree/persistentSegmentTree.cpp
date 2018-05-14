@@ -218,6 +218,10 @@ int main() {
     
 	stree->updateRange(2, 5, 10);
 	cout << stree->query(3, 6) << endl;
+    stree->updateRange(2, 5, -10);
+    
+    cout << stree->query(3, 6) << endl;
+    cout << stree->query(3, 6, 1) << endl;
 	stree->printTree();
 	
 	delete stree;
