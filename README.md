@@ -40,7 +40,8 @@ Parsing Algorithms
   
 Graph Theory
   - [ ] pathing graph algos
-    - [ ] shortest path
+    - [ ] dfs (finds a path)
+    - [x] shortest path (bfs)
     - [ ] bellman-ford (SPFA)
     - [ ] djikstras
     - [ ] all pairs shortest path (Floyd-warshall)
@@ -53,7 +54,7 @@ Graph Theory
 
 Math/Number theory
   - [ ] FFT 
-      - [ ] Intiutive FFT (O(NlogN) memory)
+      - [x] Intiutive FFT (O(NlogN) memory)
       - [ ] Fast, in place FFT (O(N) memory)
       - [ ] Sliding window FFT
   - [ ] Polynomial multiplication
