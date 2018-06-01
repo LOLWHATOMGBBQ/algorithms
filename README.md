@@ -12,7 +12,7 @@ Basic Algos
     - [x] mergesort
     - [ ] heapsort
     - [ ] timsort
-    - [ ] radix sort
+    - [x] radix sort
   
   - [ ] other
     - [x] maximum subarray sum
