@@ -6,10 +6,10 @@ I'm going to be porting over all of the python code into C++ code for performanc
 
 Basic Algos
   - [ ] sorting
-    - [ ] quicksort
-    - [ ] bubblesort
+    - [x] quicksort
+    - [x] bubblesort
     - [ ] insertion sort
-    - [ ] mergesort
+    - [x] mergesort
     - [ ] heapsort
     - [ ] timsort
     - [ ] radix sort
