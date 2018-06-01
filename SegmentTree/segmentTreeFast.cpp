@@ -9,6 +9,9 @@ int lazyTree[MAX];
 
 
 void build(int left, int right, int arr[]) {
+    if (left >= right) {
+        
+    }
     int mid = (left+right)/2;
     
     build(left, mid);
