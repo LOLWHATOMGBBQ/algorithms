@@ -48,7 +48,7 @@ Graph Theory
   - [x] topological sort
   - [ ] trees
     - [ ] minimum/maximum spanning tree
-      - [ ] prims
+      - [x] prims
       - [ ] krustals
       - [ ] An interesting problem is the cartesian product of 2 trees and trying to take the sum of the weights of the min/max spanning tree of the product
 
@@ -87,6 +87,7 @@ Matrix Algebra
   - [ ] Matroid decomposition
   - [ ] Fast multiplcation
       - [ ] Strassen algorithm
+          - M A T R O I D 
       - [ ] FFT based algorithms
 
 Distributed Algorithms
