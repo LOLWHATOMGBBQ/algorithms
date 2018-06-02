@@ -7,7 +7,7 @@ struct Node {
     // Values
     Id id;
     Type val;
-    int dist=999999;
+    int dist=-1;
     std::vector<Node*> children;
     
     
