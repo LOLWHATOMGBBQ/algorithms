@@ -87,6 +87,23 @@ public:
             return left_tree->quartile(k, mapped_left.first, mapped_right.first);
         }
     }
+    
+    // Swaps the value at idx and idx+1
+    void swap(int idx) {
+        // If it's not the bottom node
+        if (low != high) {
+            // swaps the values
+            std::swap(new_arr+idx, new_arr+idx+1);
+            if (new_arr[idx] <= mid && new_arr[idx+1] <= mid) {
+                // If both are on the bottom half then we have to do some arithmetic
+                left_tree->swap(mapped_index[idx].first);
+            }
+            if (new_arr[idx] > mid && new_arr[idx+1] > mid) {
+                // if both are on the upper half we also have to go
+                right_tree->swap(mapped_index[idx].second);
+            }
+        }
+    }
 };
 
 
