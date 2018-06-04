@@ -29,7 +29,7 @@ Tree data structures
   - [ ] red-black tree
       - [ ] concurrent rb tree
   - [ ] avl tree
-  - [ ] wavelet trees
+  - [x] wavelet trees
   - [ ] trie
   - [ ] treaps
   
