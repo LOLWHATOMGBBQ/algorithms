@@ -18,20 +18,6 @@ Basic Algos
     - [x] maximum subarray sum (written in python )
     - [x] longest increasing subsequence (written in python)
     - [x] sliding window minimum/maximum (written in python)
-Tree data structures
-  - [x] segment tree
-    - [ ] n-d segment tree
-    - [x] persistent segment tree
-    - [x] heavy-light decomposition
-    - [x] link-cut tree
-  - [ ] fenwick tree
-    - [ ] n-d fenwick tree
-  - [ ] red-black tree
-      - [ ] concurrent rb tree
-  - [ ] avl tree
-  - [x] wavelet trees
-  - [ ] trie
-  - [ ] treaps
   
 Parsing Algorithms
   - [ ] cyk
@@ -51,6 +37,7 @@ Graph Theory
       - [x] prims
       - [ ] krustals
       - [ ] An interesting problem is the cartesian product of 2 trees and trying to take the sum of the weights of the min/max spanning tree of the product
+  - [ ] Euler tours
 
 Math/Number theory
   - [ ] FFT 
@@ -103,3 +90,25 @@ Distributed Algorithms
 Extras for competitive programming
   - [x] Useful pragmas
   - [x] Square root decomposition
+# Data structures
+Range update data structures
+  - [x] segment tree
+    - [ ] n-d segment tree
+    - [x] persistent segment tree
+    - [x] heavy-light decomposition
+    - [x] link-cut tree
+  - [ ] fenwick tree
+    - [ ] n-d fenwick tree
+Binary Search Trees
+  - [ ] red-black tree
+      - [ ] concurrent rb tres
+  - [ ] avl tree
+  - [ ] van emde boas trees
+Other 
+  - [x] wavelet trees
+  - [ ] trie
+  - [ ] treaps
+Version History
+  - [ ] Blame Trees
+
+ 
