@@ -66,7 +66,7 @@ public:
     int quartile(int k, int left_idx, int right_idx) {
         if (right_idx - left_idx < k) {
             // Things are broken!!
-            return 999999999;
+            return INT_MAX;
         }
         
         pair<int,int> mapped_left = mapped_index[left_idx];
@@ -78,7 +78,7 @@ public:
             return right_tree->quartile(new_k, mapped_left.second, mapped_right.second);
             // This means we have to go to the right tree
         }
-        else if (low == high && k < new_arr.size()){
+        else if (low == high && k < new_arr.size()) {
             // This is if we reached the bottom
             return new_arr[k];
         }
