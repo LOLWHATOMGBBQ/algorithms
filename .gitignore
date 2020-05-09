@@ -1,6 +1,8 @@
 .idea/*
 *~
 *.swp
+# input files
+in.txt
 
 
 
