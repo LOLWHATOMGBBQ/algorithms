@@ -36,7 +36,9 @@ int N, p, k;
 int arr[50001];
 Rat prefix[50001];
 
-bool is_attainable(Rat avg)
+bool is_attainable(Rat avg) {
+  return false;
+}
 
 int main() {
   scanf("%d", &T);
